@@ -14,12 +14,12 @@ Used to add new records to a table.
 ```sql
 INSERT INTO Customers (name, email, phone)
 VALUES ('Alice Johnson', 'alice@example.com', '9876543210');
-✏️ UPDATE – Modify Existing Data
+✏UPDATE – Modify Existing Data
 Used to update values in existing rows. Always use a WHERE clause to avoid updating all rows.
 UPDATE Products
 SET price = 999.99
 WHERE product_id = 3;
-❌ DELETE – Remove Data
+DELETE – Remove Data
 Used to delete rows from a table. Again, always use a WHERE clause to avoid deleting everything.
 
 Example: Delete an order
